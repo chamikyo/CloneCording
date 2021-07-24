@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+
+:root {
+  --black-color: #140a00;
+  --white-color: #fff;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  --size-padding: 12px;
+  --avatar-size: 36px;
+
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--size-padding);
+  background-color: var(--black-color);
+}
+
+.intro {
+  width: 50%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.fa-youtube {
+  color: var(--red-color);
+  width: 20px;
+  height: auto;
+}
+
+.logo a {
+  display: flex;
+  padding-left: 10px;
+  text-decoration-line: none;
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+header li {
+  display: inline-block;
+  color: var(--white-color);
+  justify-content: flex-end;
+  padding: 5px;
+}
+.hash {
+  padding: var(--size-padding);
+}
+.hash li {
+  display: inline-block;
+  color: var(--blue-color);
+  font-size: var(--font-medium);
+}
+
+.title b {
+  width: 90%;
+  display: inline-block;
+  padding-left: var(--size-padding);
+  color: var(--black-color);
+}
+
+.title i {
+  padding: var(--size-padding);
+}
+
+.time {
+  padding-left: 12px;
+  color: var(--grey-dark-color);
+  font-size: var(--font-small);
+}
+
+.fuction {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: var(--size-padding);
+  justify-content: space-between;
+  color: var(--grey-dark-color);
+}
+
+.fuction ul {
+  list-style: none;
+}
+
+.user_picture {
+  font-size: 25px;
+  padding: var(--size-padding);
+}
+
+.user ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_name {
+  font-size: var(--font-medium);
+}
+
+.user_people {
+  color: var(--grey-dark-color);
+  font-size: var(--font-small);
+}
