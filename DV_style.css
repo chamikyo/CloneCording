@@ -107,7 +107,7 @@ body > .infoAndUpnext .info {
 }
 
 /*클릭했을 때 제목 짤린 2줄 다 표시할 수 있게*/
-.info .metadata .TitleandButton .title clamp {
+.info .metadata .TitleandButton .title.clamp {
   /*2줄로 유지하기*/
   display: -webkit-box;
   -webkit-box-orient: vertical;
